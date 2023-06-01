@@ -12,7 +12,7 @@ function App() {
   console.log(featuredPup);
 
     return (
-      <div>
+      <div className="pup">
         {puppies.map((puppy) => {
           return (
             <p onClick={()=>{ setFeatPupId(puppy.id)}} key ={puppy.id}>
